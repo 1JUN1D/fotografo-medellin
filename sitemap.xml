@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://www.estebanjimenezfotografo.com/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.estebanjimenezfotografo.com/quien-soy.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.estebanjimenezfotografo.com/testimonios.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.estebanjimenezfotografo.com/contacto.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Categorías secundarias -->
+    <url>
+        <loc>https://www.estebanjimenezfotografo.com/fotografo-de-bodas-medellin.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.estebanjimenezfotografo.com/servicio-de-fotografia-medellin.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.estebanjimenezfotografo.com/agencia-de-fotografia-medellin.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.estebanjimenezfotografo.com/fotografo-aereo-medellin.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.estebanjimenezfotografo.com/fotografo-comercial-medellin.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Servicios -->
+    <url><loc>https://www.estebanjimenezfotografo.com/servicios/fotografia-bodas-medellin.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://www.estebanjimenezfotografo.com/servicios/fotografia-prebodas-medellin.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://www.estebanjimenezfotografo.com/servicios/destination-weddings-medellin.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://www.estebanjimenezfotografo.com/servicios/fotografia-quince-anos-medellin.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://www.estebanjimenezfotografo.com/servicios/fotografia-maternidad-medellin.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://www.estebanjimenezfotografo.com/servicios/sesiones-familiares-medellin.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://www.estebanjimenezfotografo.com/servicios/videos-cinematograficos-medellin.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://www.estebanjimenezfotografo.com/servicios/cobertura-eventos-medellin.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://www.estebanjimenezfotografo.com/servicios/produccion-audiovisual-medellin.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://www.estebanjimenezfotografo.com/servicios/fotografia-aerea-bodas-medellin.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://www.estebanjimenezfotografo.com/servicios/fotografia-aerea-eventos-medellin.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://www.estebanjimenezfotografo.com/servicios/fotografia-aerea-inmobiliaria-medellin.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://www.estebanjimenezfotografo.com/servicios/fotografia-producto-medellin.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://www.estebanjimenezfotografo.com/servicios/fotografia-branding-medellin.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://www.estebanjimenezfotografo.com/servicios/fotografia-corporativa-medellin.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+</urlset>
