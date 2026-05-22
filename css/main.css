@@ -322,6 +322,12 @@ section {
 .navbar__toggle {
     display: none;
     flex-direction: column;
+    background: rgba(14, 12, 10, 0.7);
+    border-radius: 6px;
+    padding: 10px 8px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    transition: background 0.3s var(--ease);
     gap: 5px;
     cursor: pointer;
     padding: 6px;
@@ -329,13 +335,18 @@ section {
 
 .navbar__toggle span {
     width: 24px;
-    height: 1px;
+    height: 2px;
     background: var(--color-cream);
     transition: all 0.3s var(--ease);
+    border-radius: 2px;
+}
+
+.navbar.scrolled .navbar__toggle {
+    background: var(--color-ink);
 }
 
 .navbar.scrolled .navbar__toggle span {
-    background: var(--color-ink);
+    background: var(--color-cream);
 }
 
 @media (max-width: 960px) {
