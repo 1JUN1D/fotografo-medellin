@@ -203,7 +203,7 @@ section {
 }
 
 /* ============================================
-   NAVBAR
+   NAVBAR — fondo crema sólido siempre (sin JS)
    ============================================ */
 .navbar {
     position: fixed;
@@ -211,18 +211,17 @@ section {
     left: 0;
     right: 0;
     z-index: 100;
-    padding: 1.5rem var(--space-md);
-    background: transparent;
-    transition: all 0.4s var(--ease);
-}
-
-.navbar.scrolled {
+    padding: 1rem var(--space-md);
     background: rgba(245, 242, 236, 0.97);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    padding: 1rem var(--space-md);
     border-bottom: 1px solid rgba(0,0,0,0.06);
     box-shadow: 0 2px 20px rgba(0,0,0,0.04);
+    transition: padding 0.3s var(--ease);
+}
+
+.navbar.scrolled {
+    padding: 0.85rem var(--space-md);
 }
 
 .navbar__inner {
@@ -239,15 +238,8 @@ section {
     font-size: 1.35rem;
     font-weight: 400;
     letter-spacing: 0.06em;
-    color: var(--color-cream);
-    text-transform: uppercase;
-    text-shadow: 0 2px 10px rgba(0,0,0,0.35);
-    transition: color 0.4s var(--ease), text-shadow 0.4s var(--ease);
-}
-
-.navbar.scrolled .navbar__logo {
     color: var(--color-ink);
-    text-shadow: none;
+    text-transform: uppercase;
 }
 
 .navbar__logo span {
@@ -257,7 +249,7 @@ section {
     font-weight: 400;
     font-family: var(--font-sans);
     margin-top: 2px;
-    opacity: 0.85;
+    opacity: 0.7;
 }
 
 .navbar__menu {
@@ -268,20 +260,13 @@ section {
 }
 
 .navbar__menu a {
-    color: var(--color-cream);
+    color: var(--color-ink);
     font-size: 0.78rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     font-weight: 400;
     position: relative;
     padding: 4px 0;
-    text-shadow: 0 2px 10px rgba(0,0,0,0.4);
-    transition: color 0.4s var(--ease), text-shadow 0.4s var(--ease);
-}
-
-.navbar.scrolled .navbar__menu a {
-    color: var(--color-ink);
-    text-shadow: none;
 }
 
 .navbar__menu a::after {
@@ -322,11 +307,9 @@ section {
 .navbar__toggle {
     display: none;
     flex-direction: column;
-    background: rgba(14, 12, 10, 0.7);
+    background: var(--color-ink);
     border-radius: 6px;
     padding: 10px 8px;
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
     transition: background 0.3s var(--ease);
     gap: 5px;
     cursor: pointer;
