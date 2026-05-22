@@ -1506,22 +1506,10 @@ section {
 /* ============================================
    UTILITIES
    ============================================ */
-/* Por defecto: todo visible (fallback sin JS) */
+/* fade-in: SIEMPRE visible. Animación de entrada sutil al cargar página, sin depender de JS */
 .fade-in {
-    opacity: 1;
-    transform: translateY(0);
-    transition: opacity 0.9s var(--ease), transform 0.9s var(--ease);
-}
-
-/* Solo si JS añade la clase .js al <html>, se oculta para animar al entrar en viewport */
-.js .fade-in {
-    opacity: 0;
-    transform: translateY(20px);
-}
-
-.js .fade-in.in-view {
-    opacity: 1;
-    transform: translateY(0);
+    opacity: 1 !important;
+    transform: none !important;
 }
 
 .center { text-align: center; }
