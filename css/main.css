@@ -309,11 +309,12 @@ section {
     flex-direction: column;
     background: var(--color-ink);
     border-radius: 6px;
-    padding: 10px 8px;
-    transition: background 0.3s var(--ease);
+    padding: 9px 8px;
     gap: 5px;
     cursor: pointer;
-    padding: 6px;
+    transition: background 0.25s var(--ease);
+    z-index: 102;
+    position: relative;
 }
 
 .navbar__toggle span {
@@ -322,10 +323,6 @@ section {
     background: var(--color-cream);
     transition: all 0.3s var(--ease);
     border-radius: 2px;
-}
-
-.navbar__toggle:hover {
-    background: var(--color-accent);
 }
 
 @media (max-width: 960px) {
@@ -794,12 +791,37 @@ section {
 }
 
 @media (max-width: 1024px) {
-    .specialties__grid { grid-template-columns: repeat(3, 1fr); }
+    .specialties__grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1.2rem;
+    }
 }
 
 @media (max-width: 640px) {
-    .specialties__grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
-    .specialty__label { font-size: 1.1rem; letter-spacing: 0.15em; }
+    .specialties__grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+    }
+    .specialty__img {
+        aspect-ratio: 1/1;
+        margin-bottom: 0.85rem;
+    }
+    .specialty__label {
+        font-size: 1rem;
+        letter-spacing: 0.12em;
+    }
+    .specialty__sub {
+        font-size: 0.62rem;
+        letter-spacing: 0.2em;
+    }
+}
+
+/* Asegurar que la imagen nunca se desborde */
+.specialty,
+.specialty__img,
+.specialty__img img {
+    max-width: 100%;
+    min-width: 0;
 }
 
 /* ============================================
