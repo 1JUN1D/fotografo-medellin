@@ -1126,7 +1126,7 @@ section {
     content: '';
     position: absolute;
     inset: 0;
-    background: url('https://images.unsplash.com/photo-1519741497674-611481863552?w=1800&q=80') center/cover;
+    background: url('../assets/web/bodas/diana-sebastian/diana-sebastian-2317.webp') center/cover;
     opacity: 0.15;
     filter: grayscale(100%);
 }
