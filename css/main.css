@@ -402,7 +402,7 @@ section {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position: center 30%;
     animation: heroScale 14s var(--ease) forwards;
 }
 
@@ -1583,6 +1583,39 @@ section {
 .fade-in {
     opacity: 1 !important;
     transform: none !important;
+}
+
+/* ============================================
+   ACENTOS SOBRE FONDOS OSCUROS — paleta B/N
+   En paleta B/N el acento es negro, sobre fondos oscuros queda invisible.
+   Forzamos blanco/claro para legibilidad.
+   ============================================ */
+.section-dark .eyebrow--accent,
+.testimonials .eyebrow--accent,
+.cta-big .eyebrow--accent,
+.hero .eyebrow--accent,
+.hero-interior .eyebrow--accent {
+    color: #ffffff !important;
+}
+
+.testimonials .testimonial__quote::before,
+.t-list .t-card__quote::before {
+    color: #ffffff;
+}
+
+.testimonials .testimonial__author strong {
+    color: #ffffff;
+}
+
+.footer__title {
+    color: #ffffff;
+}
+
+/* Divider sobre fondos oscuros */
+.section-dark .divider,
+.testimonials .divider,
+.cta-big .divider {
+    background: #ffffff;
 }
 
 .center { text-align: center; }
