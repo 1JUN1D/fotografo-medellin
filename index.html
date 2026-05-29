@@ -387,6 +387,72 @@
     </section>
 
     <!-- ============================================
+         VIDEOS CINEMATOGRÁFICOS — 3 películas
+         ============================================ -->
+    <section class="videos-home" style="padding: var(--space-xxl) 0; background: var(--color-bg-alt);">
+        <div class="container">
+            <div class="section-intro fade-in">
+                <span class="eyebrow eyebrow--accent">Cinematografía</span>
+                <p class="pseudo-h2">Tres <em>películas</em></p>
+                <p>Cada video cuenta una boda desde adentro: con su ritmo, su silencio, su emoción. Mira algunos de nuestros trabajos.</p>
+            </div>
+
+            <div class="videos-home__grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: var(--space-lg);">
+
+                <article class="video-card fade-in" style="background: var(--color-bg); overflow: hidden;">
+                    <div style="aspect-ratio: 16/9; background: #000;">
+                        <video controls preload="metadata" playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                            <source src="assets/videos/videoclip-carolina-david.mp4" type="video/mp4">
+                            Tu navegador no soporta video HTML5.
+                        </video>
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <span class="eyebrow eyebrow--accent" style="display: block; margin-bottom: 0.5rem;">Boda</span>
+                        <p style="font-family: var(--font-display); font-size: 1.4rem; font-style: italic; line-height: 1.2;">Carolina & David</p>
+                    </div>
+                </article>
+
+                <article class="video-card fade-in" style="background: var(--color-bg); overflow: hidden;">
+                    <div style="aspect-ratio: 16/9; background: #000;">
+                        <video controls preload="metadata" playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                            <source src="assets/videos/videoclip-montana.mp4" type="video/mp4">
+                            Tu navegador no soporta video HTML5.
+                        </video>
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <span class="eyebrow eyebrow--accent" style="display: block; margin-bottom: 0.5rem;">Boda</span>
+                        <p style="font-family: var(--font-display); font-size: 1.4rem; font-style: italic; line-height: 1.2;">Montaña</p>
+                    </div>
+                </article>
+
+                <article class="video-card fade-in" style="background: var(--color-bg); overflow: hidden;">
+                    <div style="aspect-ratio: 16/9; background: #000;">
+                        <video controls preload="metadata" playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                            <source src="assets/videos/videoclip-boda.mp4" type="video/mp4">
+                            Tu navegador no soporta video HTML5.
+                        </video>
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <span class="eyebrow eyebrow--accent" style="display: block; margin-bottom: 0.5rem;">Boda</span>
+                        <p style="font-family: var(--font-display); font-size: 1.4rem; font-style: italic; line-height: 1.2;">Película de boda</p>
+                    </div>
+                </article>
+
+            </div>
+
+            <div style="text-align: center; margin-top: var(--space-lg);">
+                <a href="/servicios/videos-cinematograficos-medellin.html" class="text-link">Ver más sobre cinematografía <span>→</span></a>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        @media (max-width: 900px) {
+            .videos-home__grid { grid-template-columns: 1fr !important; max-width: 640px; margin-left: auto !important; margin-right: auto !important; }
+        }
+    </style>
+
+    <!-- ============================================
          TESTIMONIOS
          ============================================ -->
     <section class="testimonials">
