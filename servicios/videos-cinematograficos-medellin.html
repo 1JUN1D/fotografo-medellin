@@ -117,18 +117,61 @@
     <section class="gallery section-cream">
         <div class="container">
             <div class="section-intro fade-in">
-                <span class="eyebrow eyebrow--accent">Portafolio</span>
-                <p class="pseudo-h2">Algunos <em>trabajos</em></p>
+                <span class="eyebrow eyebrow--accent">Cinematografía</span>
+                <p class="pseudo-h2">Tres <em>películas</em></p>
+                <p>Una pequeña selección. Cada video cuenta una boda desde adentro: con su ritmo, su silencio, su emoción.</p>
             </div>
-            <div class="gallery__grid">
-                <div class="gallery__item gallery__item--wide fade-in"><img src="../assets/web/bodas/nicol-jeff/nicol-jeferson-7193.webp" alt="Portafolio"></div>
-                <div class="gallery__item gallery__item--md fade-in"><img src="../assets/web/bodas/diana-sebastian/diana-sebastian-1271.webp" alt="Portafolio"></div>
-                <div class="gallery__item gallery__item--tall fade-in"><img src="../assets/web/bodas/diana-sebastian/diana-sebastian-2436.webp" alt="Portafolio"></div>
-                <div class="gallery__item gallery__item--tall fade-in"><img src="../assets/web/bodas/nicol-jeff/nicol-jeferson-6325.webp" alt="Portafolio"></div>
-                <div class="gallery__item gallery__item--tall fade-in"><img src="../assets/web/bodas/diana-sebastian/diana-sebastian-2200.webp" alt="Portafolio"></div>
+
+            <div class="videos-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: var(--space-lg);">
+
+                <article class="video-card fade-in" style="background: var(--color-bg); overflow: hidden;">
+                    <div style="aspect-ratio: 16/9; background: #000;">
+                        <video controls preload="metadata" playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                            <source src="../assets/videos/videoclip-carolina-david.mp4" type="video/mp4">
+                            Tu navegador no soporta video HTML5.
+                        </video>
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <span class="eyebrow eyebrow--accent" style="display: block; margin-bottom: 0.5rem;">Boda</span>
+                        <p style="font-family: var(--font-display); font-size: 1.4rem; font-style: italic; line-height: 1.2;">Carolina & David</p>
+                    </div>
+                </article>
+
+                <article class="video-card fade-in" style="background: var(--color-bg); overflow: hidden;">
+                    <div style="aspect-ratio: 16/9; background: #000;">
+                        <video controls preload="metadata" playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                            <source src="../assets/videos/videoclip-montana.mp4" type="video/mp4">
+                            Tu navegador no soporta video HTML5.
+                        </video>
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <span class="eyebrow eyebrow--accent" style="display: block; margin-bottom: 0.5rem;">Boda</span>
+                        <p style="font-family: var(--font-display); font-size: 1.4rem; font-style: italic; line-height: 1.2;">Montaña</p>
+                    </div>
+                </article>
+
+                <article class="video-card fade-in" style="background: var(--color-bg); overflow: hidden;">
+                    <div style="aspect-ratio: 16/9; background: #000;">
+                        <video controls preload="metadata" playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                            <source src="../assets/videos/videoclip-boda.mp4" type="video/mp4">
+                            Tu navegador no soporta video HTML5.
+                        </video>
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <span class="eyebrow eyebrow--accent" style="display: block; margin-bottom: 0.5rem;">Boda</span>
+                        <p style="font-family: var(--font-display); font-size: 1.4rem; font-style: italic; line-height: 1.2;">Película de boda</p>
+                    </div>
+                </article>
+
             </div>
         </div>
     </section>
+
+    <style>
+        @media (max-width: 900px) {
+            .videos-grid { grid-template-columns: 1fr !important; max-width: 640px; margin-left: auto !important; margin-right: auto !important; }
+        }
+    </style>
 
     <section class="process">
         <div class="container">
